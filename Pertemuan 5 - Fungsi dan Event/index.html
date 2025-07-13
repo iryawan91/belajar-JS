@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 5 - Fungsi dan Event</title>
+  </head>
+  <body>
+    <h2>Buka Console Log Untuk Melihat Perintah</h2>
+
+    <button onclick="hitung()">Hitung</button>
+    <input oninput="periksa()" placeholder="Tulis sesuatu..." />
+    <div
+      onmouseover="hoverMasuk()"
+      onmouseout="hoverKeluar()"
+      style="width: 200px; height: 100px; background: #ddd"
+    >
+      Arahkan mouse ke sini
+    </div>
+    <p id="output"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<input id="nama" type="text" placeholder="Masukkan nama" />
+<button onclick="sapaNama()">Tampilkan Nama</button>
+<p id="outputNama"></p>
+
+<script>
+  function sapaNama() {
+    let nama = document.getElementById('nama').value;
+    document.getElementById('outputNama').innerText = 'Halo, ' + nama;
+  }
+</script>

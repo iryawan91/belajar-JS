@@ -1,0 +1,13 @@
+<input id="a" type="number" placeholder="Angka 1" />
+<input id="b" type="number" placeholder="Angka 2" />
+<button onclick="jumlahkan()">Jumlahkan</button>
+<p id="hasil"></p>
+
+<script>
+  function jumlahkan() {
+    let angka1 = Number(document.getElementById('a').value);
+    let angka2 = Number(document.getElementById('b').value);
+    let hasil = angka1 + angka2;
+    document.getElementById('hasil').innerText = 'Hasil: ' + hasil;
+  }
+</script>
